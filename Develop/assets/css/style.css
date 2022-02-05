@@ -16,9 +16,7 @@ body {
 }
 
 .header h1 {
-    position: relative;
-    width: 400px;
-    display: inline-block;
+    display: list-item;
     font-size: 48px;
 }
 
@@ -33,8 +31,13 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+
+.header div ul {
+    list-style-type: counter-style ;
+}
+
 .header div ul li {
-    display: relative;
+    display: list-item;
     margin-left: 25px;
 }
 
@@ -53,11 +56,11 @@ p {
     margin-bottom: 20px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .float-left {
-    float: right;
+    float: left;
     margin-right: 25px;
 }
 
@@ -68,7 +71,7 @@ p {
 
 .content {
     width: 75%;
-    display: inline-blockgrid;
+    display: inline-block;
     margin-left: 20px;
 }
 
